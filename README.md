@@ -1,1 +1,2 @@
-# challenge-heroway-grayscale
+# Challenge Heroway HTML/CSS
+Tema Grayscale

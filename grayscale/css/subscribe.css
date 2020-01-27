@@ -1,0 +1,84 @@
+.subscribe-section::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    background: -webkit-linear-gradient(
+      rgba(92, 90, 90, 0.35),
+      rgba(29, 29, 29, 0.98)
+    );
+    background: -moz-linear-gradient(
+      rgba(92, 90, 90, 0.35),
+      rgba(29, 29, 29, 0.98)
+    );
+    background: -o-linear-gradient(
+      rgba(92, 90, 90, 0.35),
+      rgba(29, 29, 29, 0.98)
+    );
+    background: -ms-linear-gradient(
+      rgba(92, 90, 90, 0.35),
+      rgba(29, 29, 29, 0.98)
+    );
+    background: linear-gradient(
+      rgba(92, 90, 90, 0.35),
+      rgba(29, 29, 29, 0.98)
+    );
+  }
+
+.subscribe-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10rem 0;
+    background: url('./../assets/bg-signup.jpg') center;
+    color: #fff;
+    z-index: 0;
+}
+
+.subscribe-section .subscribe-title {
+    font-weight: 350;
+    font-size: 1.5em;
+    letter-spacing: 0.02em;
+    color: #ffff;
+    margin: 0.5em 0 1em 0;
+}
+
+.subscribe-section .subscribe-form {
+    display: flex;
+    justify-content: center;
+    width: 45%;
+}
+
+.subscribe-section .subscribe-form .txt-email {
+    border: none;
+    width: 55%;
+    padding: 0.8rem;
+    margin-right: 0.4em;
+    border-radius: 0.15rem;
+}
+
+.subscribe-section .subscribe-form .txt-email::placeholder {
+    text-transform: uppercase;
+    font-size: 0.75em;
+    letter-spacing: 0.15em;
+    color: rgb(156, 153, 153);
+}
+
+.subscribe-section .subscribe-form .btn-subscribe {
+    border: none;
+    text-transform: uppercase;
+    font-size: 0.6em;
+    letter-spacing: 0.3em;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.15rem;
+    color: #fff;
+    background-color: #66a8a4 ;
+}
+
+

@@ -35,8 +35,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 10rem 0;
+    padding: 12rem 0;
     background: url('./../assets/bg-signup.jpg') center;
+    background-size: cover;
     color: #fff;
     z-index: 0;
 }
@@ -80,5 +81,3 @@
     color: #fff;
     background-color: #66a8a4 ;
 }
-
-

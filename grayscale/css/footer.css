@@ -1,0 +1,83 @@
+.footer-container {
+    width: 100%;
+    padding: 5rem 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #191919;
+}
+
+.contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 4rem ;
+}
+
+.contact-single {
+    background-color: #fff;
+    width: 32%;
+    padding: 3.5rem 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.25rem;
+    letter-spacing: 0.12em;
+    border-bottom: 0.25em solid #66a8a4 ;
+}
+
+.contact-single .icon-contact, .contact-single .text-email {
+    color: #66a8a4;
+    letter-spacing: 0.05em;
+}
+
+.contact-single .contact-title {
+    margin-top: 0.45em;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #191919;
+}
+
+.contact-single .text-contact {
+    font-size: 0.7rem;
+    color: #a3a1a1;
+}
+
+.contact-single .text-email {
+    color: #66a8a4;
+}
+
+.contact-line {
+    margin: 1.5rem 0;
+    width: 15%;
+    border: 0.1em #66a8a4 solid;
+    background-color: #66a8a4;  
+}
+
+.social-media-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 0 9rem;
+    width: 40%;
+}
+
+.social-media-container .social-media-icon {
+    width: 3em;
+    text-decoration: none;
+    color: #8b8989;
+    background-color: #4b4949;
+    border-radius: 100%;
+    padding: 0.8rem ;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.copyright-section {
+    color: #8b8989;
+}

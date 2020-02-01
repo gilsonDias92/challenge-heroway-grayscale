@@ -1,31 +1,42 @@
 .banner-ipad {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: #1d1d1d;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #1d1d1d;
+  width: 100%;
 }
 
 .banner-ipad > img.img-ipad {
-    width: 65%;
+  width: 65%;
 }
 
 .banner-ipad .banner-ipad-title {
-    padding-top: 8rem;
-    font-weight: 400;
-    font-size: 1.5em;
-    letter-spacing: 0.05em;
-    color: #ffff;
+  padding-top: 8rem;
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  color: #ffff;
 }
 
-.banner-ipad .banner-ipad-text{
-    padding: 2rem 25% 4rem 25%;
-    text-align: center;
-    line-height: 1.5rem;
-    color: rgb(177, 174, 174, 0.6);
+.banner-ipad .banner-ipad-text {
+  padding: 2rem 25% 4rem 25%;
+  text-align: center;
+  line-height: 1.5rem;
+  color: rgb(177, 174, 174, 0.6);
 }
 
 .banner-ipad .banner-ipad-text .text-highlight {
-    color: #66a8a4;
+  color: #66a8a4;
+}
+
+@media (max-width: 599px) {
+  
+  .banner-ipad .banner-ipad-text {
+    padding: 1rem 5% 4rem 5%;
+  }
+
+  .banner-ipad > img.img-ipad {
+    width: 100%;
+  }
 }

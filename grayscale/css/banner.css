@@ -61,11 +61,14 @@
   background-color: #66a8a4;
 }
 
-
 @media (max-width: 599px) {
+  .banner-container {
+    padding: 5%;
+  }
+
   .banner-container .banner-title {
-    padding-top: 4rem;
-    font-size: 3.5rem;
+    padding: 2rem 0;
+    font-size: 2rem;
   }
 
   .banner-text {

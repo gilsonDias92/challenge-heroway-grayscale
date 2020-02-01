@@ -84,3 +84,42 @@
   background-color: #66a8a4;
   border: 0.15em solid #66a8a4;
 }
+
+/* ------------------------------------------------------- */
+
+@media (max-width: 599px) {
+  .galery-section {
+    padding: 2rem 5%;
+  }
+
+  .galery-section .shoreline-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .galery-section .shoreline-section .img-shoreline {
+    width: 100%;
+    margin: 1em;
+  }
+
+  .galery-section .demo-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .galery-section .demo-section .img-demo {
+    width: 100%;
+  }
+
+  .galery-section .demo-section .img-description {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 0.5rem;
+  }
+
+  .galery-section .demo-section div.img-description:nth-child(3) {
+    order: 1;
+  }
+}
